@@ -1,0 +1,53 @@
+VNUM_LAN
+VSPD_LIM
+VPAVETYP
+VSURCOND
+LGT_COND
+HIT_RUN
+ROUTE
+INJ_SEV
+
+
+AUX
+DROWSY_DR
+A_INTER
+A_CT
+
+
+severity time 
+
+
+S.I = 
+
+lot of values
+
+MONTH 1-12 jan-dec (no)
+DAY_WEEK 1-7 sund-sat remove-9 
+HOUR - HOUR at which crash occured 0-23 , remove --99
+HARM_EV - first harmful event 17-59 remove --,99
+MAN_COLL - manner of collision remove 98,99 (side)
+REL_ROAD - relation to traffic way 1-11, remove --,98,99 (side)
+LGT_COND - 1-7 remove 8,--,9
+CF1 - 0..28 remove --,99 (no)
+ALCOHOL - 1,2 remove 9
+MAKE - (no)
+MODEL - (no)
+ROLLOVER -1:4 (unsure)
+IMPACT - 1-98 ,remove--, 99 (no)
+M_HARM - 17-59, remove --,99 (no)
+VNUM_LAN - total no of lanes on highway 0-7 , remove 8 --,9
+VSPD_LIM - speed limit 5-95, remove 98,--,99  
+VALIGN - roadway alignment, remove -- , 9 (no)
+VPROFILE - roadway grade prior remove, --, 9 (no)
+DR_SF1 - facors related to driver expressed by he investigating officer
+	0-91, remove -- , 99
+VSURCOND - 0 : 98 remove --, 99
+P_CRASH1 pre event movement , remove 98,99 (no)
+critical event-precrash
+P_Crash2  (side)
+atempted avoidance maneuver
+P_CRASH3
+Age remove 998, -- , 999
+Sex remove --,9
+TRAV_SP = travel speed remove 998, 999
+ALC_RES = remove 995,996,997,998, 999,na , 940
